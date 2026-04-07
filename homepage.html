@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<title>IS@AC</title>
+<head>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-image: url(bg.png);
+      margin: 0;
+    }
+
+    .main {
+      position: relative;
+      width: 100%;
+    }
+.scrolling-banner {
+  width: 100%;
+  height: 40px;             
+  color: #ffffff;
+  background-color: rgb(122, 255, 135);
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;     
+}
+
+.scrolling-banner p {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  margin: 0;
+
+  animation: scroll-left 15s linear infinite;
+font-family: monospace;
+  font-size: 18px; }      
+
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+    .jumbotron-container {
+      position: relative; 
+      height: 125px;      
+      background-color: rgba(108, 204, 255, 0.798);
+    }
+
+    .jumbotron-gif {
+      position: absolute; 
+      top: 6px;            
+      left: 736px;          
+      width: 225px;       
+      height: auto;
+    }
+
+    .center-box {
+      z-index: 1;
+      position: absolute;
+      top: 59%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      width: 1000px;
+      height: 700px;
+
+      background-color: rgba(109, 181, 235, 0.852);
+      border: 2px solid rgba(0, 0, 0, 0);
+      border-radius: 10px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .center-box img {
+  position: absolute;
+  top: 173px;
+  right: 300px;
+  width: 700px;
+}
+
+.textbox {
+   position: absolute;
+  top: 10px;
+  right: 380px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: 200px;
+  width: 600px;
+}
+
+.texttwo {
+   position: absolute;
+  top: 10px;
+  right: 45px;
+  background-color: rgba(175, 251, 255, 0.701);
+  padding: 20px;
+  border-radius: 10px;
+  height: 600px;
+  width: 300px;
+  z-index: 2;
+}
+
+
+
+.me {
+  position:relative;
+  top: 100px;
+  left: 200px;
+}
+
+  </style>
+</head>
+
+<body>
+
+<div class="container-fluid text-white text-center py-5 jumbotron-container">
+  <a href="homepage.html">
+  <img src="test.gif" alt="Animated GIF" class="jumbotron-gif">
+</a>
+</div>
+
+<div class="scrolling-banner">
+  <p>"Welcome to my portfolio!" - Isaac </p>
+</div>
+
+  <div class="center-box">
+    <img src="yo.png" alt="its a picture of me! black and white image of a 21 year old mexixan boy with a DOMO hat on">
+  
+<div class="textbox">
+    <h1>Welcome to my portfolio!</h1>
+    <p>Hey! My name is Isaac! I'm a transfer student at SJSU majoring in Digital Media Arts!</p>
+    <br>
+    <p>Please feel free to click through any of these links!</p>
+  
+  
+</div>
+
+<div class="texttwo">
+
+    <a href="aboutme.html">AB0UT M3</a>
+    <br>
+     <br>
+  <a href="videos.html">V1D305</a>
+<br>
+<br>
+<a href="2dart.html">D1G1TAL ART</a>
+<br>
+<br>
+<a href="photos.html">PH0T0S</a>
+<br>
+<br>
+<a href="personalprojects.html">P3RS0NAL PR0J3CTS</a>
+<br>
+<br>
+<a href="contactme.html">C0NTACT M3!</a>
+<br>
+<br>
+<a href="index.html">BACK TO START SCREEN</a>
+</div>
+
+
+
+<audio autoplay>
+  <source src="homemusic(2).mp3" type="audio/mpeg">
+</audio>
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+ <title>AB0UT M3</title>
+<head>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-image: url(night.png);
+      margin: 0;
+    }
+
+    .scrolling-banner {
+      width: 100%;
+      height: 40px;             
+      color: #ffffff;
+      background-color: rgb(32, 24, 150);
+      overflow: hidden;
+      display: flex;
+      align-items: center;     
+    }
+
+    .scrolling-banner p {
+      display: inline-block;
+      white-space: nowrap;
+      padding-left: 100%;
+      margin: 0;
+      animation: scroll-left 15s linear infinite;
+      font-family: monospace;
+      font-size: 18px;
+    }      
+
+    @keyframes scroll-left {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .jumbotron-container {
+      position: relative; 
+      height: 125px;      
+      background-color: rgba(9, 3, 114, 0.798);
+    }
+
+    .jumbotron-gif {
+      position: absolute; 
+      top: 6px;            
+      left: 736px;          
+      width: 225px;       
+      height: auto;
+    }
+
+   
+ .center-box {
+  
+  margin: 40px auto; 
+  width: 1000px;
+  
+  min-height: 700px;
+
+  background-color: rgba(50, 0, 83, 0.852);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+    
+    .title {
+    color: azure;
+      font-size: 40px;
+      margin: 0;
+      text-align: center;
+    }
+
+    
+    .main-image {
+      width: 400px;
+      height: auto;
+    }
+
+    
+    .about-text {
+        color: azure;
+      max-width: 80%;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    
+
+  </style>
+</head>
+
+<body>
+
+<div class="container-fluid text-white text-center py-5 jumbotron-container">
+  <a href="homepage.html">
+  <img src="test.gif" alt="Animated GIF" class="jumbotron-gif">
+</a>
+</div>
+
+<div class="scrolling-banner">
+  <p>"Welcome to my AB0UT M3 Page!" - Isaac</p>
+</div>
+
+
+<div class="center-box">
+
+  <h1 class="title">AB0UT M3!</h1>
+
+  <img src="us.png" class="main-image">
+
+  <p class="about-text">
+    Hey what’s up! My name is Isaac Garcia-Gonzalez, I’m based in Santa Cruz, CA. I am a first generation Mexican-American, and the first one in 
+    my family to go to University. I’m currently a transfer student at San Jose State University, majoring in Digital Media Art.
+
+    I love creating and editing videos. Programs I know are Premiere, Photoshop, Illustrator and a little bit
+    of After Effects, but I’m always up to learning new things, software and techniques to help expand my knowledge
+    base! I’m passionate about learning new mediums. I’m always up to challenging myself with new processes...
+    <br>
+    <br>
+    like this website!
+  </p>
+  
+
+</div>
+
+
+<audio autoplay>
+  <source src="mirame.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
